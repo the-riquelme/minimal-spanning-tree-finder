@@ -1,15 +1,15 @@
 import { ButtonContainer } from './styles';
+import { inputFile } from '../../utils/minimumSpanningTree.js';
 
 export const Button = ({
 	variantType='box',
 	title,
-	onClick
 }) => {
 	return (
 		<ButtonContainer
 			title={title}
 			variantType={variantType}
-			onClick={onClick}
+			onClick={inputFile}
 		>
 			{title}
 		</ButtonContainer>
