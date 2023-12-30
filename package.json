@@ -1,17 +1,30 @@
 {
-  "name": "minimal-spanning-tree-finder",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "data-soccer-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "live-server src"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "js-graph-algorithms": "^1.0.18",
-    "live-server": "^1.2.2",
-    "vis": "^4.21.0-EOL"
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-react": "^7.30.1",
+    "nanoid": "^4.0.0",
+    "vite": "^3.0.0"
   }
 }
